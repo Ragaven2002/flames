@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(189, 203, 216);
+}
+h1{
+    text-align-last: center;
+    color: rgb(230, 79, 41);
+    font-size: 56px;
+    font-family: cursive;
+}
+.yourname,.crushname{
+    margin-top: 50px;
+    text-align-last: center;
+    color: rgb(142, 108, 221);
+}
+h3{
+    font-size: 45px;
+    font-family: cursive;
+}
+input{
+    height: 8vh;
+    max-width: 301px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 6px 6px rgb(126, 122, 122);
+    
+}
+.button{
+    text-align-last: center;
+    margin-top: 50px;
+    
+}
+button{
+    margin-right: 4px;
+    width: auto;
+    height: auto;
+    font-size: 24px;
+    font-family: cursive;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 9px;
+}
+button:hover{
+    background-color: brown;
+    color: beige;
+    scale: 1.1;
+}
+.result{
+    text-align-last: center;
+    font-size: 34px;
+    color: blueviolet;
+    margin-top: 9px;
+}
+#result{
+    text-align-last: center;
+    font-size: 34px;
+    color: blueviolet;
+    margin-top: 9px;
+
+}
+.img1,.img,#photo{
+    text-align-last: center;
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+}
+.img1 img{
+    width: 237px;
+}
+
+.friend,.love,.affection,.enemy,.marriage,.sibiling{
+    text-align-last: center;
+    display: none;
+}

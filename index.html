@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLAMES</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>FLAMES</h1>
+    <div class="img1"><img src="./photo/images.svg" alt="img"></div>
+    <form name="submit-to-google-sheet">
+        
+        <div class="yourname">
+            <h3>YOUR NAME</h3>
+            <input  id="name1" type="text" name="Name">
+        </div>
+        <div class="crushname">
+            <h3>CRUSH NAME</h3>
+            <input id="name2" type="text" name="Cname">
+        </div>
+        <div class="button">
+            <button type="submit" name="submit" onclick="flames()"> FLAMES </button>
+            <button type="reset" onclick="reset()"> RESET </button>
+        </div>
+        <div  class="result"><input type="text" id="result" name="Flames"></div>
+    </form>
+   
+    <div id="photo"></div>
+    <div class="img">
+        <img id="friend" class="friend" src="./photo/friends.jpeg" alt="friends">    
+        <img id="love" class="love" src="./photo/love.jpeg" alt="love">
+        <img id="affection" class="affection" src="./photo/affection.jpeg" alt="affection">
+        <img id="marriage" class="marriage" src="./photo/marriage.jpeg" alt="marriage">
+        <img id="enemy" class="enemy" src="./photo/enemy.jpeg" alt="enemy">
+        <img id="sibiling" class="sibiling" src="./photo/sibiling.jpeg" alt="sibilings">
+    </div>
+   
+
+    <script src="javascript.js"></script>
+</body>
+</html>
